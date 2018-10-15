@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,700,800');
-@font-face {
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script');
+/*@font-face {
 
 	font-family: SofiaProLight;
 
@@ -16,7 +17,7 @@
 
 
 
-}
+}*/
 
 .margin-top{
 	margin-top:1em;
@@ -282,7 +283,7 @@ ul li {
 
 .header.fixed {
 
-	background-color: rgba(0, 0, 0, 0.25);
+	background-color: rgba(0, 0, 0, 0.50);
 
 }
 
@@ -331,6 +332,7 @@ ul li {
 .navigation a {
 
 	color: rgba(255, 255, 255, 0.75);
+	/*color:#fff;*/
 
 	font-size: 13px;
 
@@ -341,6 +343,8 @@ ul li {
 	letter-spacing: 3px;
 
 	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 600;
 
 }
 
@@ -660,7 +664,7 @@ ul li {
 	font-family: 'Dancing Script', cursive;
 
 	font-size: 200px;
-	font-size:15.16vw;
+	/*font-size:15.16vw;*/
 
 }
 
@@ -1464,9 +1468,11 @@ margin-top:50px;
 }
 
 .image-center img{
-	width:100%;
+	width:auto;
 	margin-left:auto;
 	margin-right:auto;
+	display: block;
+	max-width:100%;
 }
 
 .result-options h4, .result-options a{
@@ -1476,10 +1482,45 @@ margin-top:50px;
 
 }
 
+.result-options.margin-bottom{
+	margin-bottom:4em;
+}
+
 .other-options{
 	background-color: rgba(0,0,0,0.1);
 }
 
 .other-options h4{
 	text-align:center;
+	padding:20px;
+}
+
+.options-overlay{
+	background:rgba(0,0,0,0.55);
+	height:100%;
+	width:260px;
+	/*max-width:100%;*/
+	position: absolute;
+	text-align: center;
+	margin-left:auto;
+	margin-right:auto;
+	left:0;
+	right:0;
+	display: block;
+	bottom: 0;
+}
+
+.options-overlay h3, .options-overlay h4{
+	padding:0;
+	margin:0;
+	color: #fff;
+	font-weight:500;
+	position: relative;
+	top:35%;
+	/*left:50%;*/
+
+}
+
+.other-options .margin-bottom{
+	margin-bottom:4em;
 }
