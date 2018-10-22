@@ -946,3 +946,48 @@ label {
 	background-color: #ee7e72;
 	min-height: 400px;
 }
+
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 3.5px solid #927DAC;
+}
+
+th, td {
+    text-align: center;
+    padding: 16px;
+    border: 3.5px solid #927DAC;
+    width:25%;
+
+}
+
+th:first-child, td:first-child {
+    text-align: left;
+}
+
+tr:nth-child(3) {
+    background-color: #C8BED5;
+}
+
+
+.BairHugger_table img{
+	width:100%;
+}
+
+.BairHugger_table p{
+	font-size:1.5em;
+	color: black;
+	font-weight: 100;
+	font-style: normal;
+}
+
+.BairHugger_table ul{
+	text-align: left;
+}
+.BairHugger_table li{
+	list-style-type: disc;
+    color: black;
+    margin-left: 11px;
+}
