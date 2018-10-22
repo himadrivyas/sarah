@@ -92,13 +92,22 @@
     margin-bottom: 50px;
   }
   .caseStudy-banner {
-    background: url("../images/2018_Assets/Filtrete/Hero_tablet.jpg") no-repeat center center;
+    /*background: url("../images/2018_Assets/Filtrete/Hero_tablet.jpg") no-repeat center center;*/
     background-size: cover;
     background-color: #ee7e72;
     min-height: 400px;
   }
 
-
+.tensor-flowChart p{
+  font-size:2vw;
+}
+.bracket-text{
+  font-size:1vw;
+}
+.grey-box{
+  padding: 5px;
+  width:auto;
+}
 }
 @media screen and (max-width: 640px) {
   .header .header-content {
@@ -111,10 +120,13 @@
     padding-top: 35%;
   }
   .caseStudy-banner {
-    background: url("../images/2018_Assets/Filtrete/Hero_m.jpg") no-repeat center center;
+    /*background: url("../images/2018_Assets/Filtrete/Hero_m.jpg") no-repeat center center;*/
     background-size: cover;
     background-color: #ee7e72;
     min-height: 400px;
+  }
+  .tensor-flowChart .symbol{
+    margin-top:1.5em;
   }
 }
 @media screen and (max-width: 480px) {
@@ -146,6 +158,6 @@
   .testimonials p {
     font-size: 26px;
   }
-}
 
+}
 
