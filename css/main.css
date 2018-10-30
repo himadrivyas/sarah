@@ -388,7 +388,7 @@ ul li {
 	height: 100%;
 }
 .work .overlay {
-	background: rgba(0, 0, 0, 0.4);
+	background: rgba(0, 0, 0, 0.5);
 	/*background: rgba(248, 158, 115, 0.9);*/
 	height: 100%;
 	left: 0;
@@ -939,17 +939,25 @@ label {
 	/*font-size:1.042vw;*/
 }
 
+
+
 .tensor-flowChart .symbol{
 	font-size:10.77vw;
 	box-sizing: border-box;
-	margin-top:1em;
+	margin-top:0.75em;
 }
 
 .tensor-flowChart .reason{
 	line-height: 30px;
-	margin-top:2.25em;
+	margin-top:3.5em;
 	font-size:2vw;
 }
+
+.tensor-paddedText{
+	padding:2.5em 1em;
+	/*height:auto;*/
+}
+
 /* ------------------------------------------------------------------------------
 
 	PPF & case study page css
@@ -1001,7 +1009,8 @@ tr:nth-child(3) {
 
 
 .BairHugger_table img{
-	width:100%;
+	max-width:100%;
+	width:auto;
 }
 
 .BairHugger_table p{
@@ -1018,4 +1027,14 @@ tr:nth-child(3) {
 	list-style-type: disc;
     color: black;
     margin-left: 11px;
+}
+/*Extra css*/
+.margin-bottom3 .options-desc h4{
+	height:auto;
+}
+.margin-bottom3 .margin-bottom{
+	margin-bottom:3.5em;
+}
+.margin-bottom3 .margin-top{
+	/*margin-top:2.5em;*/
 }

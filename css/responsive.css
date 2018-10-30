@@ -69,6 +69,12 @@
   width:100%;
 }
 }
+
+@media screen and (min-width:768px){
+  .table-responsive{
+    overflow-x: visible;
+  }
+}
 @media screen and (max-width: 768px) {
   .header .header-content {
     padding: 45px 0;
@@ -116,6 +122,10 @@
 }
 .modal-lg{
   width:auto;
+}
+
+.BairHugger_table .table-responsive>.table>tbody>tr>td, .table-responsive>.table>tbody>tr>th, .table-responsive>.table>tfoot>tr>td, .table-responsive>.table>tfoot>tr>th, .table-responsive>.table>thead>tr>td, .table-responsive>.table>thead>tr>th{
+  white-space: normal;
 }
 }
 @media screen and (max-width: 640px) {
