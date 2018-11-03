@@ -60,4 +60,11 @@ $(document).ready(function() {
 		$('.nav-toggle').toggleClass('close-nav');
 		nav.toggleClass('open');
 	});
+	$('.header-content').find('a').click(function(){
+		var $top = $(this)
+	    	id = $top.attr('href');
+		$('html, body').animate({
+			scrollTop: $(id).offset().top - 75
+		}, 500);
+	});
 });
